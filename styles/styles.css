@@ -2,3 +2,17 @@
   min-height: 150px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.preview-box:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.navbar-brand, h1 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
