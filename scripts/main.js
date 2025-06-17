@@ -1,3 +1,8 @@
+import { injectSpeedInsights } from '@vercel/speed-insights';
+
+injectSpeedInsights();
+
+
 //get dom elements
 const color1 = document.getElementById('color1');
 const color2 = document.getElementById('color2');
